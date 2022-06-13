@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+     margin: 0;
+     padding: 0;
+     border: border-box;
+     list-style: none;
+     font-family: 'Kdam Thmor Pro', sans-serif;
+}
+:root {
+    --preto_fundo: #101010;
+    --bordo_box: #C14000;
+    --verde_box: #009987;
+    --laranja_box: #FFAA00;
+    --texto_branco: #FFFFFF;
+    --texto_cinza: #737373;
+    --cinza_claro: #C4C4C4;
+}
+body{
+    background-color: var(--preto_fundo);
+}
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252424;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 500px;
+    margin-right: 500px
+}
+.inicio li>a{
+    color: var(--texto_branco);
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 10px;  
+}
+.logo_inicio{
+    margin-right: 300px;
+}
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.meio h1{
+    color: var(--texto_branco);
+    font-size: 4rem;
+}
+.meio_n2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meio_n2 h1{
+    color: var(--texto_branco);
+    font-size: 2rem;
+    padding: 20px;
+}
+.equipe{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    padding: 40px;
+}
+.equipe_banner{
+    height: 100px;
+    border-radius: 100px;
+}
+.equipe nav#julia{
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: #C14000;
+    padding: 20px;
+}
+.equipe nav#marta{
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: #009987;
+    padding: 20px;
+}
+.equipe nav#marisa{
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: #FFAA00;
+    padding: 20px;
+}
+div#linkedin{
+    display: flex;
+    justify-content: start;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    height: 60px;
+    width: 300px;
+}
+.linkedin_icon{
+    height: 50px;
+    width: 100px;
+}
+div#linkedin h1{
+    font-size: 1.5rem;
+    
+}
+.equipe h1{
+    color: var(--texto_branco);
+    text-align: center;
+}
+.equipe p{
+    color: var(--texto_branco);
+    text-align: center;
+}
+
+.our_business{
+    margin-right: 110px;
+    margin-left: 200px;
+    text-align: start;
+    align-items: flex-start;
+    display: flex;
+    background-color: #252424;
+    height: 400px;
+    justify-content: left;
+    
+}
+.business_sec{
+    height: 100%;
+}
+
+h1#leia_mais{
+    padding: 30px;
+    color: var(--texto_branco);
+    margin: 20px auto;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    width: 80px;
+    height: 70px;
+}
+.banner_business{
+    height: 400px;
+}
+.text_business{
+    text-align: center;
+    color: var(--texto_branco);
+    margin: 20px auto;
+
+}
+p#text_bus{
+    text-align: start;
+    display: flex;
+    color: var(--texto_branco);
+}
+.fim_n2{
+    text-align: center;
+    color: var(--texto_branco);
+    margin: 20px auto;
+}
+.fim_n2 h1{
+    color: var(--texto_branco);
+    font-size: 2rem;
+    padding: 20px;
+}
+.projetos{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 250px;
+    width: 450px;
+    padding: 100px;
+
+}
+.projeto_image{
+    margin: 20px;
+    width: 500px;
+    height: auto;
+}
+.veja_mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veja_mais h1{
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--texto_branco);
+    color: var(--texto_branco);
+    font-size: 1rem;
+    padding: 10px;
+}
+.barra_final{
+    margin-top: 50px;
+    color: var(--texto_branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252424;
+    border-radius: 5px;
+    padding: 10px;
+}
+.barra_final h2{
+    font-size: 1rem;
+    margin-left: 200px;
+    margin-right: 700px;
+}
+.barra_final img{
+    margin-left: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+    
